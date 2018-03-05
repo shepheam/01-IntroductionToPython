@@ -105,7 +105,7 @@ natasha.forward(50)
 
 brooke = rg.SimpleTurtle('turtle')
 brooke.pen = rg.Pen('pink', 5)
-brooke.forward(45)
+brooke.backward(45)
 brooke.right(60)
 brooke.backward(45)
 brooke.left(20)
