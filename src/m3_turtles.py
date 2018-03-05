@@ -86,10 +86,11 @@ boris = rg.SimpleTurtle()
 # -----------------------------------------------------------------------------
 # Ask the SimpleTurtle object to do things by applying METHODs to it:
 # -----------------------------------------------------------------------------
-boris.forward(100)
+boris.forward(45)
 boris.left(90)
-boris.forward(200)
-
+boris.forward(150)
+boris.right(30)
+boris.forward(90)
 # -----------------------------------------------------------------------------
 # Construct a second SimpleTurtle,
 # set its  pen  and  speed  INSTANCE VARIABLES, and ask it to do things.
@@ -102,10 +103,16 @@ natasha.backward(50)
 natasha.right(90)
 natasha.forward(50)
 
-
+brooke = rg.SimpleTurtle('turtle')
+brooke.pen = rg.Pen('pink', 5)
+brooke.forward(45)
+brooke.right(60)
+brooke.backward(45)
+brooke.left(20)
+brooke.forward(100)
 ###############################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   Add a few more line of your own code to make one of the
 #   existing SimpleTurtles move some more and/or have different
 #   characteristics.
@@ -119,7 +126,7 @@ natasha.forward(50)
 
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -146,7 +153,7 @@ natasha.forward(50)
 
 ###############################################################################
 #
-# TODO: 6.
+# DONE: 6.
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
